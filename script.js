@@ -7,7 +7,7 @@ function compute() {
   var year = new Date().getFullYear() + parseInt(years);
 
   //Create the interest text
-  document.getElementById("result").innerHTML = "If you deposit " + principal + ",\<br\>at an interest rate of " + rate + "%\<br\>You will receive an amount of <mark>" + interest + "</mark>,\<br\>in the year " + year + "\<br\>"
+  document.getElementById("result").innerHTML = "If you deposit the amount of " + principal + ",\<br\>at an interest rate of " + rate + "%\<br\>You will receive an amount of <mark>" + interest + "</mark>,\<br\>in the year " + year + "\<br\>"
 }
 
 //Update the slider value
